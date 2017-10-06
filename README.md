@@ -35,6 +35,23 @@ fmt.Println(chars.Parsef("hola", '♠'))
 ♠♠    ♠♠    ♠♠♠♠♠♠♠     ♠♠♠♠♠♠♠♠ ♠♠          ♠♠ 
 ```
 
+**Ejemplo 3:** Imprimir "Hola" con un caracter para dibujado y otra para el fondo. Para eso se usa la funcion `ParsefBackground`. Que recibe la cadena a transformar, el caracter con el cual se imprimiran las letras y el caracter de fondo.
+```Go
+fmt.Println(chars.ParsefBackground("hola", '♠'))
+```
+*Ouput:*
+```
+♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠
+♠♠  ♠♠♠♠  ♠♠♠♠♠♠♠       ♠♠♠♠♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠  ♠♠♠♠♠♠♠♠
+♠♠  ♠♠♠♠  ♠♠♠♠♠   ♠♠♠♠♠   ♠♠♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠    ♠♠♠♠♠♠♠
+♠♠  ♠♠♠♠  ♠♠♠♠   ♠♠♠♠♠♠♠♠   ♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠♠♠♠♠  ♠♠  ♠♠♠♠♠♠
+♠♠        ♠♠♠♠   ♠♠♠♠♠♠♠♠   ♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠♠♠♠  ♠♠♠♠  ♠♠♠♠♠
+♠♠        ♠♠♠♠   ♠♠♠♠♠♠♠♠   ♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠♠♠          ♠♠♠♠
+♠♠  ♠♠♠♠  ♠♠♠♠♠   ♠♠♠♠♠   ♠♠♠♠♠♠        ♠♠♠♠♠            ♠♠♠
+♠♠  ♠♠♠♠  ♠♠♠♠♠♠♠       ♠♠♠♠♠♠♠♠        ♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠  ♠♠
+♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠
+```
+
 ### Instalacion
 `go get github.com/tecnologer/ASCIIArt`
 
