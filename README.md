@@ -34,3 +34,21 @@ fmt.Println(chars.Parsef("hola", '♠'))
 ♠♠    ♠♠  ♠♠♠     ♠♠♠   ♠♠♠♠♠♠♠♠  ♠♠♠♠♠♠♠♠♠♠♠♠  
 ♠♠    ♠♠    ♠♠♠♠♠♠♠     ♠♠♠♠♠♠♠♠ ♠♠          ♠♠ 
 ```
+
+### Instalacion
+`go get github.com/tecnologer/ASCIIArt`
+
+### Ejemplo en codigo
+```Go
+package main
+
+import (
+	"fmt"
+
+	"github.com/tecnologer/Strings"
+)
+
+func main() {
+	fmt.Println(chars.Parsef("hola", '♠'))
+}
+```
