@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tecnologer/Strings/Fonts"
+	"github.com/tecnologer/ASCIIArt/Fonts"
 )
 
 //Parse - Returns string parsing the letters formed with plus sign

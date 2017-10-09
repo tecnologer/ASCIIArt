@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tecnologer/Strings"
+	"github.com/tecnologer/ASCIIArt"
 )
 
 func main() {
